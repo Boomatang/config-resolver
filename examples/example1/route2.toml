@@ -1,0 +1,10 @@
+[metadata]
+name = "example 1 http policy 2"
+parents = ["example 1 gateway policy 1"]
+
+[policyMetadata]
+type = "override"
+strategy = "merge"
+
+[spec]
+field_e = "http override"

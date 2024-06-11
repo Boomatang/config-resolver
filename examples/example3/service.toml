@@ -1,0 +1,10 @@
+[metadata]
+name = "example 3 service policy 1"
+parents = ["example 3 http policy 1"]
+
+[policyMetadata]
+type = "default"
+strategy = "atomic"
+
+[spec]
+field_d = "service default"

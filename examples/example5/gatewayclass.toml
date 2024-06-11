@@ -1,0 +1,10 @@
+[metadata]
+name = "example 5 gateway class policy 1"
+parents = []
+
+[policyMetadata]
+type = "default"
+strategy = "merge"
+
+[spec]
+field_a = "a"

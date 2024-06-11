@@ -1,0 +1,12 @@
+[metadata]
+name = "example 1 http policy 1"
+parents = ["example 1 gateway policy 1"]
+
+[policyMetadata]
+type = "default"
+strategy = "merge"
+
+[spec]
+field_d = "d"
+field_e = "http default"
+

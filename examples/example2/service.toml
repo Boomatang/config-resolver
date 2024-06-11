@@ -1,0 +1,10 @@
+[metadata]
+name = "example 2 service policy 1"
+parents = ["example 2 http policy 1"]
+
+[policyMetadata]
+type = "default"
+strategy = "merge"
+
+[spec]
+field_d = "service default"

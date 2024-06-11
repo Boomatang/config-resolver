@@ -1,0 +1,12 @@
+[metadata]
+name = "example 4 http policy 1"
+parents = ["example 4 gateway policy 1"]
+
+[policyMetadata]
+type = "override"
+strategy = "atomic"
+
+[spec]
+field_d = "d"
+field_e = "http override"
+

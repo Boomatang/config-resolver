@@ -1,0 +1,12 @@
+[metadata]
+name = "example 2 http policy 1"
+parents = ["example 2 gateway policy 1"]
+
+[policyMetadata]
+type = "default"
+strategy = "atomic"
+
+[spec]
+field_d = "d"
+field_e = "http default"
+
